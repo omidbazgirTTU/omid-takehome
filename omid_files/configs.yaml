@@ -1,0 +1,11 @@
+Data:
+  directory: '../omid-takehome/omid_files/'
+  chess_data: 'chess_games_new.csv'
+  science_data: 'askscience_data.csv'
+Figures:
+  directory: '../omid-takehome/omid_files/images/'
+XGBoost:
+  objective: 'multi:softprob'
+  num_class: 3       
+  learning_rate: 0.1
+  n_estimators: 200
